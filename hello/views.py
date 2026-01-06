@@ -14,8 +14,7 @@ def index(request):
 # Create your views here.
 
 
-def index(request):
-    return render(request, "index.html")
+
 
 
 def db(request):
