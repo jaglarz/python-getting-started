@@ -71,7 +71,7 @@ if IS_HEROKU_APP:
     SECURE_SSL_REDIRECT = True
 else:
     # Dla Render, lokalnego dewelopmentu i innych platform
-    ALLOWED_HOSTS = [".localhost", "127.0.0.1", "[::1]", "0.0.0.0", "[::]", "jaglarz-lab-17-12.onrender.com/"]
+    ALLOWED_HOSTS = [".localhost", "127.0.0.1", "[::1]", "0.0.0.0", "[::]", "jaglarz-lab-17-12.onrender.com"]
 
 
 # Application definition
